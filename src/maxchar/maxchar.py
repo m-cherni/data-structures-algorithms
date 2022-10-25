@@ -1,7 +1,7 @@
 def max_char_v1(s):
     chars_count_dict = {}
     max = 0
-    result = s
+    result = ""
     for c in s:
         chars_count_dict[c] = chars_count_dict.get(c, 0) + 1
         if chars_count_dict[c] > max:
